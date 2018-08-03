@@ -38,7 +38,7 @@ public class BridgeDevNetConstants extends BridgeConstants {
     BridgeDevNetConstants() {
         btcParamsString = NetworkParameters.ID_TESTNET;
 
-        BtcECKey federator0PublicKey = BtcECKey.fromPublicOnly(Hex.decode("0234ab441aa5edb1c7341315e21408c3947cce345156c465b3336e8c6a5552f35f"));
+        BtcECKey federator0PublicKey = BtcECKey.fromPublicOnly(Hex.decode("02dde6898edc1ca3e058f9d087ccb804549505dbd9a70b4ca08fba6bc265d76a1b"));
         BtcECKey federator1PublicKey = BtcECKey.fromPublicOnly(Hex.decode("03301f6c4422aa96d85f52a93612a0c6eeea3d04cfa32f97a7a764c67e062e992a"));
         BtcECKey federator2PublicKey = BtcECKey.fromPublicOnly(Hex.decode("02d33a1f8f5cfa2f7be71b0002710f4c8f3ea44fef40056be7b89ed3ca0eb3431c"));
 
@@ -51,7 +51,7 @@ public class BridgeDevNetConstants extends BridgeConstants {
         Instant genesisFederationAddressCreatedAt = Instant.ofEpochMilli(1510617600l);
 
         // Expected federation address is:
-        // 2NCEo1RdmGDj6MqiipD6DUSerSxKv79FNWX
+        // 2NBvFN9tMEfy9m44aMWov4azv56z6MwpKRw
         genesisFederation = new Federation(
                 genesisFederationPublicKeys,
                 genesisFederationAddressCreatedAt,
